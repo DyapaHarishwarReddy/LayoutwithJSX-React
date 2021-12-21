@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.left{
+    display: flex;
+    float: left;
+    font-size: 30px;
+    color: #928E8E;
+}
+.right{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 20%;    
+    font-size: 40px;
+    color: #928E8E;
+}
+.order-info{
+    margin: 30px;
+    background-color: #ECE9E9;
+    border-radius: 5px;
+}
+.order-info table{
+    width: 100%;
+}
+.order-info td span{
+    font-size: 25px;
+    padding-right: 5px;
+}
+.order-info table{
+    padding: 15px 10px;
+}
+.order-info td {
+    padding: 0px 15px;
+}
+.customer-info{
+    margin: 30px;
+    border: 3px solid #C9C1C1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.customer-info div {
+    margin: 10px;
+}
+.emp-details{
+    text-align: center;
+    margin: 30px 5px;
+    background-color: #FAF5F5;
+    padding: 8px;    
+}
+.emp-details p{
+    color: gray;
+    font-weight: 700;
+}
+.Print{
+    display: flex;
+    float: right;
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 10px 25px;  
+    margin-top: 5px;
+}
+.product-list{
+    margin: 30px;
+    border-radius: 5px;
+    border: 3px solid #C9C1C1;
+    display: flex;
+    padding:15px;
+    position: relative;
+}
+.product-list div {
+    margin: 15px;
+}
+.product-list .check-box input{
+    width: 20px;
+    height: 20px;
+    outline: 3px solid gold;
+    margin-top: 40px;
+}
+.prod-img img{
+    width: 100px;
+    height: 100px;
+}
+.prod-details{
+    flex-flow: column;
+}
+.prod-details p{
+    color: gray;
+    font-weight: 650;
+    margin-top: 7px;
+}
